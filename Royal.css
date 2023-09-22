@@ -1,0 +1,395 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+nav{
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+#nav{
+    text-align: center;
+}
+#nav ul li{
+display: inline-flex;
+padding: 8px 12px;
+font-size: 14px;
+}
+
+#nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+#nav ul li a:hover{
+    color: rgb(243, 67, 67);
+    /* background-color: white; */
+}
+
+nav a img{
+    height: 30px;
+    width: 180px;
+    display: flex;
+    position: absolute;
+    left: 2%;
+    top: 3%;
+}
+
+.im1{
+    
+        height: 250px;
+        width: 316.5px;
+        background-color: orange;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+    
+}
+.im1:hover{
+    transform: scale(1.06);
+}
+
+.text1 h4{
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    width: 318px;
+    color: white;
+    margin-top: 140px;
+}
+
+.btn1{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 12px 22px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0;
+    text-align: center;
+}
+
+.btn2{
+    position: absolute;
+    margin-top: 690px;
+    top: 50%;
+    left: 45%;
+    background-color: #f1f1f1;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 12px 22px;
+    
+}
+
+.btn3{
+    position: absolute;
+    font-size: 16px;
+    margin-top: 1300px;
+    padding: 12px 22px;
+    border: 1px solid white;
+    top: 50%;
+    left: 7%;
+    background-color: transparent;
+    color: rgb(27, 26, 26);
+    cursor: pointer;
+
+}
+
+.btn3:hover{
+    background-color: #f1f1f1;
+    text-decoration: black;
+}
+
+.btn4{
+    position: absolute;
+    font-size: 16px;
+    margin-top: 230px;
+    padding: 12px 22px;
+    border: none;
+    left: 10%;
+    background-color: #f1f1f1;
+    color: black;
+    cursor: pointer;
+
+}
+
+.btn5{
+    position: absolute;
+    font-size: 16px;
+    margin-top: 250px;
+    padding: 10px 20px;
+    left: 5%;
+    border: 1px solid white;
+    background-color: transparent;
+    cursor: pointer;
+    color: black;
+}
+
+.btn5:hover{
+    background-color: #f1f1f1;
+    text-decoration: black;
+}
+
+
+#nav2{
+    width: 100%;
+    height: 58px;
+    background-color: rgb(29, 27, 27);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#na{
+    text-align: center;
+}
+
+#na ul li{
+display: inline-flex;
+padding: 8px 12px;
+font-size: 14px;
+color: white;
+}
+
+.a2{
+    color: red;
+}
+
+#na ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+#na ul li a:hover{
+    color: rgb(243, 67, 67);
+}
+
+
+#nav3{
+    width: 100%;
+    height: 58px;
+    background-color: rgb(29, 27, 27);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#na2{
+    text-align: center;
+}
+
+#na2 ul li{
+display: inline-flex;
+padding: 8px 12px;
+font-size: 14px;
+color: white;
+}
+
+#na2 ul li a{
+    color: white;
+    text-decoration: none
+
+}
+
+#na2 ul li a:hover{
+    color: rgb(243, 67, 67);
+}
+
+#nav4{
+    width: 100%;
+    height: 58px;
+    background-color: rgb(29, 27, 27);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#na3{
+    text-align: center;
+}
+
+#na3 ul li{
+    display: inline-flex;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: white;
+}
+
+#na3 ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+#na3 ul li a:hover{
+    color: rgb(243, 67, 67);
+}
+
+#nav5{
+    width: 100%;
+    height: 58px;
+    background-color: rgb(29, 27, 27);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#na4{
+    text-align: center;
+}
+
+#na4 ul li{
+    display: inline-flex;
+    padding: 8px 12px;
+    font-size: 14px;
+    color: white;
+}
+
+#na4 ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+#na4 ul li a:hover{
+    color: rgb(243, 67, 67);
+}
+
+#nav6{
+    width: 100%;
+    height: 58px;
+    background-color: rgb(29, 27, 27);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#na5{
+    text-align: center;
+}
+
+#na5 ul li{
+    display: inline-flex;
+    padding: 8px 12px;
+    font-size: 14px;
+    color: white;
+}
+
+#na5 ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+#na5 ul li a:hover{
+    color: rgb(243, 67, 67);
+}
+
+#nav7{
+    width: 100%;
+    height: 58px;
+    background-color: rgb(29, 27, 27);
+    display: flex;
+    justify-content: center;
+}
+
+#na6{
+    color: white;
+}
+
+#nav8{
+    width: 100%;
+    height: 175px;
+    background-color: rgb(29, 27, 27);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#na7{
+    text-align: center;
+}
+
+#na7 ul li{
+    margin-top: 80px;
+    margin-left: 155px;
+    /* border: 1px solid red; */
+    display: inline-flex;
+    padding: 8px 12px;
+    font-size: 15px;
+    color: white;
+}
+
+#na7 ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+#na7 ul li a:hover{
+    color: rgb(243, 67, 67);
+}
+
+#footer{
+    background: #e5e3e3;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin-left: 100%;
+    margin-inline-start: 0px;
+    /* margin: 25px; */
+    padding: 15px;
+}
+
+#footer tr th{
+    padding: 10px;
+    
+}
+
+#footer1{
+    /* padding: 30px; */
+    display: flex;
+    background: #e5e3e3;
+    position: relative;
+    font-family: "montserrat-regular";
+    justify-content: center;
+    padding: 25px;
+    width: 100%;
+    /* font-size: 50px; */
+
+}
+
+th{
+    /* width: 100%; */
+    padding: 0px;
+    text-align: left;
+    justify-content: left;
+    font-size: 13.5px;
+    /* font-size: 10px; */
+
+}
+
+th,td{
+    padding: 0 25px 0 25px;
+}
+
+td{
+    font-size: 13px;
+}
+
